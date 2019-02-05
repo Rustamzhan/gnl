@@ -10,10 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "libft/includes/libft.h"
 #include "get_next_line.h"
-#include <unistd.h>
 
 static t_list	*get_current_list(int fd, t_list **head)
 {
